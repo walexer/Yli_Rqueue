@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+      <modules>
+        <Yli_Rqueue>
+          <version>0.1.0</version>
+        </Yli_Rqueue>
+      </modules>
+      <global>
+          <helpers>
+            <rqueue>
+              <class>Yli_Rqueue_Helper</class>
+            </rqueue>
+          </helpers>
+          <models>
+             <rqueue>
+                <class>Yli_Rqueue_Model</class>
+             </rqueue>
+          </models>
+      </global>
+</config>
